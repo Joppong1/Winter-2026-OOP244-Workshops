@@ -13,7 +13,6 @@ I have done all the coding by myself and only copied the code
 that my professor provided to complete my work for function whatever.
 -----------------------------------------------------------
 */
-#pragma once
 #ifndef SENECA_CSTR_H 
 #define SENECA_CSTR_H 
 
@@ -51,7 +50,7 @@ namespace seneca {
         // Always null-terminates des. Safer than std::strncpy.
         // Returns des.
 
-    char* strcpy(char* des, const char* src, size_t len);
+  char* strcpy(char* des, const char* src, size_t len);
 
         // Copies up to 'len' characters from src to des (like std::strncpy).
         // May not null-terminate if src is longer than len.

@@ -13,7 +13,7 @@ I have done all the coding by myself and only copied the code
 that my professor provided to complete my work for function whatever.
 -----------------------------------------------------------
 */
-#pragma once
+
 #define _CRT_SECURE_NO_WARNINGS
 #include "io.h"
 

@@ -24,7 +24,7 @@ namespace seneca{
         size_t i = 0;
         while (des && src && src[i]) {
             des[i + len] = src[i];
-            i++;
+            i++; 
         }
         des[i + len] = char(0); // Null-terminate the result
         return des;
