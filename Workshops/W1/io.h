@@ -13,10 +13,9 @@ I have done all the coding by myself and only copied the code
 that my professor provided to complete my work for function whatever.
 -----------------------------------------------------------
 */
-#pragma once
 #ifndef SENECA_IO_H
 #define SENECA_IO_H
-#include <cstdio>
+#include <iostream>
 namespace seneca {
 	struct PhoneRec
 	{
@@ -29,9 +28,9 @@ namespace seneca {
 	void read(char*);
 	void print(long long);
 	void print(const PhoneRec& rec, size_t& row, const char* filter = nullptr);
-	bool read(PhoneRec& rec, FILE* fp);
+	bool read(PhoneRec& rec, FILE* fptr);
 	void print(PhoneRec* recs[], size_t size, const char* filter = nullptr);
 	void setPointers(PhoneRec* ptrs[], PhoneRec recs[], size_t size);
-	void sort(PhoneRec* ptrs[], size_t size, bool byLastName);
+	void sort(PhoneRec* ptrs[], size_t size, bool sortByLastName);
 }
 #endif // !SENECA_IO_H

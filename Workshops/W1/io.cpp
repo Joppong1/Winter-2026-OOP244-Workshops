@@ -19,7 +19,7 @@ that my professor provided to complete my work for function whatever.
 
 #include <iostream>
 #include <iomanip>
-#include <cstdio>
+#include "cstr.h"
 
 using namespace std;
 
