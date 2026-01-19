@@ -14,17 +14,15 @@ that my professor provided to complete my work for function whatever.
 -----------------------------------------------------------
 */
 #include "cstr.h"
-
-namespace seneca{
-
+namespace seneca {
     // Concatenates the src string to the end of des string.
-   // Assumes des has enough space to hold the result.
+    // Assumes des has enough space to hold the result.
     char* strcat(char* des, const char* src) {
         size_t len = strlen(des);
         size_t i = 0;
         while (des && src && src[i]) {
             des[i + len] = src[i];
-            i++; 
+            i++;
         }
         des[i + len] = char(0); // Null-terminate the result
         return des;
