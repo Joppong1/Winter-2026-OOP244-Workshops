@@ -2,7 +2,7 @@
 -----------------------------------------------------------
 Workshop 01
 Module: cstr
-Filename: ctsr.h
+Filename: cstr.h
 -----------------------------------------------------------
 Author: Josh Oppong
 Student number: 118395201

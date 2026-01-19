@@ -5,7 +5,7 @@ Module: cstr
 Filename: cstr.cpp
 -----------------------------------------------------------
 Author: Josh Oppong
-Student number: 118395201
+Student number: 118,395,201
 Email: joppong5@myseneca.ca
 Subject: OOP244NCC
 -----------------------------------------------------------
